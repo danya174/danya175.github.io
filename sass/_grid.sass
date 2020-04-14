@@ -1,0 +1,58 @@
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  outline: none
+
+html
+  font-size: 16px  
+  font-family: Helvetica
+
+.container
+  max-width: 1170px
+  margin: auto
+
+.button
+  display: block
+  font-size: 1.1875rem
+  line-height: 1.1875rem
+  text-align: center  
+  border-radius: 100px
+  background-color: #ffd735
+  box-shadow: 0px 7px 7.84px 0.16px rgba(12, 5, 0, 0.29)
+  padding: 28px 90px
+  border: none
+  cursor: pointer
+  &:hover
+    background-color: #efca34
+    box-shadow: 0px 7px 7.84px 0.16px rgba(12, 5, 0, 0.29)
+
+section
+  padding: 60px 0px  
+  
+.section__title
+  font-family: Georgia
+  font-size: 2.875rem
+  font-style: italic
+  line-height: 2.875rem
+  text-align: center
+  font-weight: normal
+  margin: 50px 0px 65px 0px
+
+  a 
+    text-decoration: none
+
+@media (max-width: 1200px)  
+  .container
+    padding: 0% 4%
+
+@media (max-width: 960px)
+  html
+    font-size: 14px
+
+@media (max-width: 768px)
+  html
+    font-size: 13px
+@media (max-width: 576px)
+  html
+    font-size: 12px    
